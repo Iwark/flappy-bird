@@ -1,9 +1,4 @@
-var gulp = require('gulp')
-var ghPages = require('gulp-gh-pages')
-var path = require('path')
+const {src, task}= require('gulp');
+const ghPages = require('gulp-gh-pages');
 
-
-gulp.task('deploy', function(cb) {
-    return gulp.src('./build/**/*')
-    	.pipe(ghPages())
-})
+task('deploy', () => src('./dist/**/*').pipe(ghPages()));

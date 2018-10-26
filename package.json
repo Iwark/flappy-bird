@@ -4,15 +4,15 @@
   "private": true,
   "homepage": "/flappy-bird",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
-    "react-scripts": "0.2.1"
+    "gulp": "^4.0.0",
+    "gulp-gh-pages": "^0.6.0-5",
+    "react-scripts": "2.0.5"
   },
   "dependencies": {
     "classnames": "^2.2.5",
     "fastclick": "^1.0.6",
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
     "relite": "^1.0.0"
   },
   "scripts": {
@@ -23,5 +23,11 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
